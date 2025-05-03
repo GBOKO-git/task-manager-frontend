@@ -1,6 +1,13 @@
 import { TaskItemProps } from "../Interface/Task";
 import SharedButton from "./SharedButton";
 
+// const taskss = [
+//   {
+//     id: 123,
+//     title: "test",
+//     status: "done",
+//   }
+// ]
 
 
 const TaskItem: React.FC<TaskItemProps> = ({ tasks, handleDelete }) => {
