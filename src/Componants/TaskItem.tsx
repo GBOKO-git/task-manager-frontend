@@ -10,11 +10,7 @@ import SharedButton from "./SharedButton";
 // ]
 
 
-const TaskItem: React.FC<TaskItemProps> = ({ tasks =[{
-  id: 123,
-  title: "test",
-  status: "done",
-}], handleDelete }) => {
+const TaskItem: React.FC<TaskItemProps> = ({ tasks =[], handleDelete }) => {
   return (
     <ul>
       {tasks.map((task) => (
